@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/第5章 队列和双端队列/palindromeChecker.js"
+      "program": "${workspaceFolder}/第6章 链表/linked-list.js"
     }
   ]
 }

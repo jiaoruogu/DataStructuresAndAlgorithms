@@ -2,7 +2,7 @@
 // #count = 0
 // #items = {}
 
-class Stack {
+export class Stack {
   constructor() {
     this.count = 0;
     this.items = {};
@@ -52,22 +52,4 @@ class Stack {
   }
 }
 
-// const stack = new Stack();
 
-// console.log(stack.isEmpty());
-
-// stack.push(5);
-// stack.push(8);
-// stack.push(6);
-// stack.push(1);
-// stack.push("test\n");
-
-// // const a = stack.pop()
-
-// console.log(stack.peek());
-
-// console.log(stack.toString());
-
-module.exports = {
-  Stack,
-};

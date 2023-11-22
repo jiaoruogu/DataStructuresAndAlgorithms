@@ -1,4 +1,4 @@
-const { Queue } = require('./queue')
+import { Queue } from './queue.js'
 
 
 function hotPotato(elementList, num) {

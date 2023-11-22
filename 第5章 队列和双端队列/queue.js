@@ -6,7 +6,7 @@
  * size
  */
 
-class Queue {
+export class Queue {
   #count;
   #lowestCount;
   #items;
@@ -66,7 +66,4 @@ class Queue {
   }
 }
 
-module.exports = {
-  Queue
-}
 

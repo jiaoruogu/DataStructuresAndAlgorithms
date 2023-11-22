@@ -1,4 +1,4 @@
-const { Stack } = require("./stack-base-object");
+import { Stack } from "./stack-base-object.js";
 
 function decimalToBinary(decNumber) {
   const stack = new Stack();

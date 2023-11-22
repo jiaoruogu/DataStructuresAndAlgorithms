@@ -10,7 +10,7 @@
  * size
  */
 
-class Deque {
+export class Deque {
   constructor() {
     this.items = {};
     this.lowestCount = 0;
@@ -70,22 +70,3 @@ class Deque {
   }
 }
 
-module.exports = {
-  Deque,
-};
-
-// const deque = new Deque();
-// console.log(deque.isEmpty()); // 输出 true
-// deque.push('John');
-// deque.push('Jack');
-// console.log(deque.toString()); // John, Jack
-// deque.push('Camila');
-// console.log(deque.toString()); // John, Jack, Camila
-// console.log(deque.size()); // 输出 3
-// console.log(deque.isEmpty()); // 输出 false
-// deque.shift(); // 移除 John
-// console.log(deque.toString()); // Jack, Camila
-// deque.pop(); // Camila 决定离开
-// console.log(deque.toString()); // Jack
-// deque.unshift('John'); // John 回来询问一些信息
-// console.log(deque.toString()); // John, Jack

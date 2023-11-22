@@ -1,4 +1,4 @@
-const { Deque } = require('./deque')
+import { Deque } from './deque.js'
 
 function palindromeCheckerInitVerson(aString) {
   const bString = aString.split('').reverse().join('')
