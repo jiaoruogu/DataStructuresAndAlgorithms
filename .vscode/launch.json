@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/第6章 链表/sorted-linked-list.js"
+      "program": "${workspaceFolder}/第7章 集合/set.js"
     }
   ]
 }
