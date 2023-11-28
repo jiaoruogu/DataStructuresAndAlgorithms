@@ -121,13 +121,3 @@ export default class LinkedList {
   }
 }
 
-const linkedList = new LinkedList();
-linkedList.push(1);
-linkedList.push(2);
-linkedList.push(3);
-linkedList.push(4);
-linkedList.push(5);
-linkedList.push(6);
-
-let result = linkedList.toString();
-console.log(result);
