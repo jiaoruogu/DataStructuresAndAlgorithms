@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/第7章 集合/set.js"
+      "program": "${workspaceFolder}/第10章 树/binary-search-tree.js"
     }
   ]
 }
